@@ -23580,3 +23580,344 @@ img.why-exist-img {
   -webkit-background-clip: text;
   color: transparent;
 }
+
+
+
+
+
+
+/* -----------AboutUs-------------- */
+
+section.about-banner {
+  font-family: Poppins, sans-serif;
+  width: 100%;
+  background-image: url(../images/banners/AboutUs-banner.png);
+  height: 485px;
+}
+
+.bradcome-content {
+  text-align: center;
+  margin: -18px 0px;
+  color: #fff;
+
+}
+
+.bradcome-content h2 {
+  color: #fff;
+}
+
+.bradcome-content p {
+  color: #fff;
+  font-weight: 500;
+}
+
+
+.first-icon-set {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+section.Who.We.Are {
+  font-family: Poppins, sans-serif;
+}
+
+.first-icon-set h4 {
+  font-weight: 500;
+}
+
+.first-icon-set img {
+  width: 65px;
+  padding: 10px;
+  /* background: aquamarine; */
+  border-radius: 50px;
+  border: 2px solid #1515ffbd;
+}
+
+.who-we-are-text p {
+  font-size: 16px;
+}
+
+.who-we-are-text {
+  max-width: 60%;
+}
+
+h2.who-we-head {
+  position: relative;
+
+}
+
+h2.who-we-head:after {
+  content: "";
+  width: 170px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: linear-gradient(63deg, rgba(155, 155, 248, 1) 0%, rgba(3, 0, 255, 1) 100%);
+  margin-bottom: 8px;
+}
+
+.section-who-we {
+  display: flex;
+  align-items: center;
+}
+
+.img-whoweare img {
+  height: 310px;
+  width: 100%;
+  border-radius: 75px 0;
+  object-fit: cover;
+}
+
+
+
+
+section.Why.We.Exist {
+  font-family: Poppins, sans-serif;
+  background: #eaeaea82;
+}
+
+h2.why-we-exist-head {
+  position: relative;
+
+}
+
+.content-why-we-exist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2.why-we-exist-head:after {
+  content: "";
+  width: 170px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: linear-gradient(63deg, rgba(155, 155, 248, 1) 0%, rgba(3, 0, 255, 1) 100%);
+  margin-bottom: 8px;
+}
+
+h4.supply-para {
+  font-weight: 500;
+}
+
+.content-why-we-exist h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: rgb(255, 49, 49);
+  margin: 0
+}
+
+.content-why-we-exist p {
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.Facing-section {
+  font-family: Poppins, sans-serif;
+  /* background: #eaeaea82; */
+}
+
+h2.Facing-head {
+  position: relative;
+
+}
+
+
+h2.Facing-head:after {
+  content: "";
+  width: 170px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: linear-gradient(63deg, rgba(155, 155, 248, 1) 0%, rgba(3, 0, 255, 1) 100%);
+  margin-bottom: 8px;
+}
+
+.Facingdiv p {
+  font-size: 18px;
+}
+
+.Facingdiv h5 {
+  font-size: 20px;
+}
+
+.founders-details img {
+  margin: auto;
+}
+
+.founders-details {
+  text-align: center;
+}
+
+
+section.founders{
+  font-family: Poppins, sans-serif;
+  background: #eaeaea82;
+} 
+
+h2.Founders-head {
+  position: relative;
+}
+
+
+h2.Founders-head:after {
+  content: "";
+  width: 170px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: linear-gradient(63deg, rgba(155, 155, 248, 1) 0%, rgba(3, 0, 255, 1) 100%);
+  margin-bottom: 8px;
+}
+
+.founder-details {
+  display: flex
+;
+  align-items: center;
+  justify-content: center;
+}
+
+.founders-details h2 {
+  font-weight: 500;
+  padding:10px 0px
+}
+
+p.para-founders {
+  font-size: 16px;
+}
+
+
+section.mission-visson {
+  font-family: Poppins, sans-serif;
+  /* background: #eaeaea82; */
+}
+h2.mision-vissson-head{
+  position: relative;
+}
+
+h2.mision-vissson-head:after {
+  content: "";
+  width: 170px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: linear-gradient(63deg, rgba(155, 155, 248, 1) 0%, rgba(3, 0, 255, 1) 100%);
+  margin-bottom: 8px;
+}
+
+.mission-sec img {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.mission-sec {
+  display: flex
+;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+
+
+section.Industries  {
+  font-family: Poppins, sans-serif;
+  background: #eaeaea82;
+}
+
+h2.Industries-head{
+  position: relative;
+}
+
+
+h2.Industries-head:after {
+  content: "";
+  width: 247px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: linear-gradient(63deg, rgba(155, 155, 248, 1) 0%, rgba(3, 0, 255, 1) 100%);
+  margin-bottom: 8px;
+}
+
+img.img-fluid {
+  border-radius: 11px;
+  box-shadow: #9B9BF8 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+
+
+
+
+
+section.Our-Approach {
+  font-family: Poppins, sans-serif;
+  /* background: #eaeaea82; */
+}
+
+
+h2.Our-Approach-head{
+  position: relative;
+}
+
+
+h2.Our-Approach-head:after {
+  content: "";
+  width: 180px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: linear-gradient(63deg, rgba(155, 155, 248, 1) 0%, rgba(3, 0, 255, 1) 100%);
+  margin-bottom: 8px;
+}
+img.img-our-approch {
+  margin: auto;
+  box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+  border-radius: 10px;
+}
+
+button.quote-button {
+  padding: 12px 32px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  background: #ff3131;
+}
+section.Facing-section {
+  height: 270px;
+  margin-top: 70px;
+}
