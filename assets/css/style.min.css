@@ -23870,10 +23870,10 @@ h2.Industries-head:after {
   margin-bottom: 8px;
 }
 
-img.img-fluid {
+/* img.img-fluid {
   border-radius: 11px;
   box-shadow: #9B9BF8 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
-}
+} */
 
 
 
@@ -23903,9 +23903,7 @@ h2.Our-Approach-head:after {
   margin-bottom: 8px;
 }
 img.img-our-approch {
-  margin: auto;
-  box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
-  border-radius: 10px;
+  width:100%;
 }
 
 button.quote-button {
