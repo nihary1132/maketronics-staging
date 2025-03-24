@@ -24460,11 +24460,11 @@ h2.rfq-subtitle-how {
   font-size: 1rem;
   border-radius: 0.25rem;
 }
-
 .rfq-btn-lg {
   padding: 13px 28px;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 26px;
+  font-weight: 600;
 }
 
 .rfq-row {
@@ -24629,16 +24629,28 @@ section.rfq-supprt {
 }
 
 .crfq-cards {
-  margin-top: 13%;
+  margin-top: 0%;
   border-right: 2px solid #0075af;
 }
-
 .crfq-cards h2 {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .crfq-cards h3 {
   font-weight: 400;
   font-size: 17px;
 }
+
+.crfq-cards img {
+  width: 60px;
+  margin: auto;
+  padding-bottom: 18px;
+}
+
+
+
+
+
+
+
