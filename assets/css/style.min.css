@@ -23193,6 +23193,33 @@ ul.points-new-design img {
   padding: 14px 0px 1px 23px;
 } */
 
+h2.section-heading-card {
+  font-size: 32px;
+  margin: 0;
+  font-weight: 500;
+  position: relative;
+  z-index: 0;
+  color: #fff;
+}
+
+
+
+h2.section-heading-card:after {
+  content: "";
+  width: 27%;
+  height: 120%;
+  display: block;
+  position: absolute;
+  left: -16px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(63deg, rgba(155, 155, 248, 1) 0%, rgba(3, 0, 255, 1) 100%);
+  border-radius: 0 50px 50px 0;
+}
+
+
+
+
 .title-head h2 {
   color: #000;
   font-weight: 400;
@@ -23880,6 +23907,37 @@ section.mission-visson {
   font-family: Poppins, sans-serif;
   /* background: #eaeaea82; */
 }
+
+
+
+h2.mision-vissson-head {
+  font-size: 32px;
+  margin: 0;
+  font-weight: 500;
+  position: relative;
+  z-index: 0;
+  color: #fff;
+}
+
+
+
+h2.mision-vissson-head:after {
+  content: "";
+  width: 30%;
+  height: 120%;
+  display: block;
+  position: absolute;
+  left: -16px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(63deg, rgba(155, 155, 248, 1) 0%, rgba(3, 0, 255, 1) 100%);
+  border-radius: 0 50px 50px 0;
+}
+
+
+
+
+
 
 
 
