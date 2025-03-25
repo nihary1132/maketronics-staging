@@ -25082,6 +25082,10 @@ section.rfq-supprt {
   border-right: 0px;
 }
 
+.filter-box {
+  width: 100%;
+}
+
 
 }
 @media (max-width: 375px) {
