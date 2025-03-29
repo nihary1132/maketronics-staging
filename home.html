@@ -19,9 +19,8 @@
   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
-  
 
- 
+  
 
   <script>
     WebFontConfig = {
@@ -48,7 +47,17 @@
   <!-- Main CSS File -->
   <link rel="stylesheet" href="assets/css/style.min.css" />
   <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+     document.addEventListener("DOMContentLoaded", function() {
+    AOS.init();
+  });
+  </script>
+ 
+
 </head>
 
 <body>
@@ -140,8 +149,8 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <div class="banner-text-and-logo" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="100">
-                <h1 >We Are <span>MakeTronics</span></h1>
+              <div class="banner-text-and-logo" >
+                <h1 data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">We Are <span>MakeTronics</span></h1>
 
                 <p>
                   Solving component obsolescence<br />
@@ -240,7 +249,7 @@
 
       <section class="why-do-we-exist section-padding">
         <div class="container">
-          <div class="intHead">
+          <div class="intHead"  data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
             <h4>Why Do We Exist ?</h4>
             <h6>
               Electronic component obsolescence is a growing challenge. We
@@ -249,10 +258,10 @@
           </div>
           <div class="row align-items-center">
             <div class="col-lg-6">
-              <img src="./assets/images/why-do-exist.jpeg" alt="" class="why-exist-img" />
+              <img src="./assets/images/why-do-exist.jpeg" alt="" class="why-exist-img" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000" />
             </div>
             <div class="col-lg-6">
-              <div class="side-text">
+              <div class="side-text" data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000">
                 <ul class="side-list">
                   <li>
                     <img src="./assets/images/08.png" alt="" />
@@ -296,7 +305,7 @@
 
       <section class="about-section-new section-padding">
         <div class="container">
-          <div class="intHead">
+          <div class="intHead" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
             <h4>True Cost of Obsolescence</h4>
             <h6>
               Obsolete components don’t just disrupt supply chains—they cost
@@ -307,7 +316,7 @@
 
 
             <div class="col-lg-4">
-              <div class="inner-obs-box">
+              <div class="inner-obs-box" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">
                 <img src="./assets/images/05.png" alt="" />
                 <p>
                   <b>Automobile</b>
@@ -316,7 +325,7 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="inner-obs-box">
+              <div class="inner-obs-box" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">
                 <img src="./assets/images/04.png" alt="" />
                 <p>
                   <b>Telecommunications</b>
@@ -325,7 +334,7 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="inner-obs-box">
+              <div class="inner-obs-box" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">
                 <img src="./assets/images/03.png" alt="" />
                 <p>
                   <b>Healthcare</b>
@@ -361,7 +370,7 @@
         <div class="row">
           <div class="container">
             <div class="col-lg-12 col-md-6">
-              <div class="title-head py-4">
+              <div class="title-head py-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000" >
                 <h2>
                   How Maketronics Solves
                   <span> the Obsolescence Challenge </span>
@@ -369,7 +378,7 @@
               </div>
             </div>
             <div class="col-lg-12">
-              <img src="./assets/images/maketronics-front-banner.png" alt="" class="img-fluid" />
+              <img src="./assets/images/maketronics-front-banner.png" alt="" class="img-fluid" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000" />
             </div>
           </div>
         </div>
@@ -378,12 +387,12 @@
       <section class="blog-section m-b-3 mt-4">
         <div class="container">
           <div class="row">
-            <div class="title-head">
+            <div class="title-head" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
               <h2>Read Our <span>Blogs</span></h2>
             </div>
 
             <div class="col-lg-12 .col-md-6 .col-sm">
-              <div class="swiper mySwiper">
+              <div class="swiper mySwiper" data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide border">
                     <div class="blog-details">
@@ -517,12 +526,12 @@
       <section class="Review-section">
         <div class="container">
           <div class="row">
-            <div class="title-head">
+            <div class="title-head" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
               <h2>Our <span>Customer Feedback</span></h2>
             </div>
 
             <div class="col-lg-12 .col-md-6 .col-sm">
-              <div class="swiper custom-slider mb-5 mt-3">
+              <div class="swiper custom-slider mb-5 mt-3" data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide border">
                     <div class="head-sec">
@@ -642,11 +651,11 @@
       <section class="relate-products-section">
         <div class="container">
           <div class="products-section pt-0">
-            <div class="title-head">
+            <div class="title-head" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
               <h2>Realted <span>Products</span></h2>
             </div>
 
-            <div class="products-slider owl-carousel owl-theme dots-top dots-small">
+            <div class="products-slider owl-carousel owl-theme dots-top dots-small" data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000">
               <div class="product-default">
                 <figure>
                   <a href="product.html">
@@ -975,13 +984,6 @@
 
   <a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <script>
-     AOS.init();
-  </script>
-
-
   <!-- Plugins JS File -->
   <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script>
   <script src="assets/js/jquery.min.js"></script>
@@ -993,7 +995,6 @@
   <script src="assets/js/main.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  
   <!-- <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
