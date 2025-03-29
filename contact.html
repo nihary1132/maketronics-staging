@@ -114,7 +114,7 @@
 									<a href="">Case Study</a>
 								</li>
 							</ul>
-							<a href="javascript:;" class="btn btn-dark mr-2">
+							<a href="javascript:;" class="btn callus-home mr-2">
 								Call Us at 1234567890
 							</a>
 						</nav>
@@ -126,18 +126,12 @@
 		</header>
 
 		<main class="main">
-			<!-- <nav aria-label="breadcrumb" class="breadcrumb-nav">
-				<div class="container">
-					<ol class="breadcrumb">
-						<li class="breadcrumb-item">
-							<a href="demo4.html"><i class="icon-home"></i></a>
-						</li>
-						<li class="breadcrumb-item active" aria-current="page">
-							Contact Us
-						</li>
-					</ol>
-				</div>
-			</nav> -->
+			<nav aria-label="breadcrumb" class="breadcrumb-nav">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="demo4.html"><i class="icon-home"></i></a></li>
+					<li class="breadcrumb-item"><a href="#">Contact</a></li>
+				</ol>
+			</nav>
 
 			<section class="contact-banner" style="background-image: url('./assets/images/banners/bg-breadcrumb.png');">
 				<div class="container">
@@ -159,8 +153,9 @@
 
 			<section class="address-contact">
 				<div class="contact-info-address  ">
-					<div class="col-sm-6 col-lg-4" style="background-color: #221eff;">
-						<div class="feature-box ">
+					<div class="col-12 col-lg-4" style="background-color: #0300ff;">
+						<div class="feature-box appear-animate" id="card-box" data-animation-name="fadeInLeftShorter"
+							data-animation-delay="100">
 							<div class="icon-sets-contact text-center mt-3">
 								<i class="sicon-location-pin"></i>
 								<h3>Office locations </h3>
@@ -184,8 +179,8 @@
 						</div>
 					</div>
 
-					<div class="col-sm-6 col-lg-4" style="background-color: #1515ffbd;">
-						<div class="feature-box ">
+					<div class="col-12 col-lg-4" style="background-color: #1515ffbd;">
+						<div class="feature-box appear-animate" id="card-box1 ">
 							<div class="icon-sets-contact text-center mt-3">
 								<i class="far fa-envelope"></i>
 								<h3>Email</h3>
@@ -202,8 +197,9 @@
 
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-4" style="background-color: #7171ff;">
-						<div class="feature-box ">
+					<div class="col-12 col-lg-4" style="background-color: #7171ff;">
+						<div class="feature-box appear-animate" id="card-box2" data-animation-name="fadeInRightShorter"
+							data-animation-delay="100">
 							<div class="icon-sets-contact text-center mt-3">
 								<div class="icon-callus">
 									<i class="fa fa-mobile-alt"></i>
@@ -223,13 +219,13 @@
 
 
 
-			<section class="social-cards">
+			<!-- <section class="social-cards">
 				<div class="container py-5">
 					<h2 class="section-heading-card">Connect With Us</h2>
 
 					<div class="row">
-						<!-- Facebook Card -->
-						<div class="col-md-4 col-sm-6">
+						
+						<div class="col-md-4 col-sm-6 mb-lg-0 mb-2">
 							<div class="card social-card h-100 my-5">
 								<div class="card-body text-center facebook py-4">
 									<i class="fab fa-facebook-f card-icon"></i>
@@ -242,8 +238,8 @@
 							</div>
 						</div>
 
-						<!-- Twitter Card -->
-						<div class="col-md-4 col-sm-6">
+						
+						<div class="col-md-4 col-sm-6 mb-lg-0 mb-2">
 							<div class="card social-card h-100 my-5">
 								<div class="card-body text-center twitter py-4">
 									<i class="fab fa-twitter card-icon"></i>
@@ -256,8 +252,8 @@
 							</div>
 						</div>
 
-						<!-- Instagram Card -->
-						<div class="col-md-4 col-sm-6">
+						
+						<div class="col-md-4 col-sm-6 mb-lg-0 mb-2">
 							<div class="card social-card h-100 my-5">
 								<div class="card-body text-center instagram ">
 									<i class="fab fa-instagram card-icon"></i>
@@ -270,53 +266,84 @@
 							</div>
 						</div>
 
-						
-
-						
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 
 
 
 			<section class="contact-form">
+				
 				<div class="container">
-					<div class="custom-form-container">
-						<h2 class="custom-form-title">Contact Form</h2>
-						<form>
-							<div class="custom-form-group">
-								<label for="name" class="custom-form-label custom-required-field">
-									<span class="custom-field-icon">📌</span>Name
-								</label>
-								<input type="text" class="custom-form-input" id="name" required>
+					<div class="col-12">
+						<h2 class="section-heading-card mt-5">Connect With Us</h2>
+					</div>
+					<div class="card-contact-div d-flex">
+						<div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+							<div class="custom-form-container">
+								<h2 class="custom-form-title">Contact Form</h2>
+								<form>
+									<div class="custom-form-group">
+										<label for="name" class="custom-form-label custom-required-field">
+											<span class="custom-field-icon"></span>Name
+										</label>
+										<input type="text" class="custom-form-input" id="name" required>
+									</div>
+
+									<div class="custom-form-group">
+										<label for="email" class="custom-form-label custom-required-field">
+											<span class="custom-field-icon"></span>Email
+										</label>
+										<input type="email" class="custom-form-input" id="email" required>
+									</div>
+
+									<div class="custom-form-group">
+										<label for="company" class="custom-form-label custom-required-field">
+											<span class="custom-field-icon"></span>Company Name
+										</label>
+										<input type="text" class="custom-form-input" id="company" required>
+									</div>
+
+									<div class="custom-form-group">
+										<label for="message" class="custom-form-label">
+											<span class="custom-field-icon"></span>Message (Optional)
+										</label>
+										<textarea class="custom-form-input custom-textarea" id="message"></textarea>
+									</div>
+
+									<div class="custom-button-container">
+										<button type="submit" class="custom-submit-button">Submit</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-6 col-lg-6  ">
+
+							<div class="custom-social-cards mt-5">
+								<div class="custom-social-card custom-facebook">
+									<i class="fab fa-facebook-f"></i>
+									<h3>Facebook</h3>
+									<p>Connect with us on Facebook for daily updates</p>
+									<a href="#" class="custom-btn">Follow Us</a>
+								</div>
+
+								<div class="custom-social-card custom-twitter">
+									<i class="fab fa-twitter"></i>
+									<h3>Twitter</h3>
+									<p>Stay updated with our latest news and insights</p>
+									<a href="#" class="custom-btn">Follow Us</a>
+								</div>
+
+								<div class="custom-social-card custom-instagram">
+									<i class="fab fa-instagram"></i>
+									<h3>Instagram</h3>
+									<p>Explore our visual stories and scenes</p>
+									<a href="#" class="custom-btn">Follow Us</a>
+								</div>
 							</div>
 
-							<div class="custom-form-group">
-								<label for="email" class="custom-form-label custom-required-field">
-									<span class="custom-field-icon">📌</span>Email
-								</label>
-								<input type="email" class="custom-form-input" id="email" required>
-							</div>
-
-							<div class="custom-form-group">
-								<label for="company" class="custom-form-label custom-required-field">
-									<span class="custom-field-icon">📌</span>Company Name
-								</label>
-								<input type="text" class="custom-form-input" id="company" required>
-							</div>
-
-							<div class="custom-form-group">
-								<label for="message" class="custom-form-label">
-									<span class="custom-field-icon">📌</span>Message (Optional)
-								</label>
-								<textarea class="custom-form-input custom-textarea" id="message"></textarea>
-							</div>
-
-							<div class="custom-button-container">
-								<button type="submit" class="custom-submit-button">Submit</button>
-							</div>
-						</form>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -442,135 +469,35 @@
 			<span class="mobile-menu-close"><i class="fa fa-times"></i></span>
 			<nav class="mobile-nav">
 				<ul class="mobile-menu">
-					<li><a href="demo4.html">Home</a></li>
 					<li>
-						<a href='category.html'>Categories</a>
-						<ul>
-							<li><a href='category.html'>Full Width Banner</a></li>
-							<li><a href='category-banner-boxed-slider.html'>Boxed Slider Banner</a></li>
-							<li><a href='category-banner-boxed-image.html'>Boxed Image Banner</a></li>
-							<li><a href="https://www.portotheme.com/html/porto_ecommerce/category-sidebar-left.html">Left
-									Sidebar</a></li>
-							<li><a href='category-sidebar-right.html'>Right Sidebar</a></li>
-							<li><a href='category-off-canvas.html'>Off Canvas Filter</a></li>
-							<li><a href='category-horizontal-filter1.html'>Horizontal Filter 1</a></li>
-							<li><a href='category-horizontal-filter2.html'>Horizontal Filter 2</a></li>
-							<li><a href="#">List Types</a></li>
-							<li><a href='category-infinite-scroll.html'>Ajax Infinite Scroll<span
-										class="tip tip-new">New</span></a></li>
-							<li><a href='category.html'>3 Columns Products</a></li>
-							<li><a href='category-4col.html'>4 Columns Products</a></li>
-							<li><a href='category-5col.html'>5 Columns Products</a></li>
-							<li><a href='category-6col.html'>6 Columns Products</a></li>
-							<li><a href='category-7col.html'>7 Columns Products</a></li>
-							<li><a href='category-8col.html'>8 Columns Products</a></li>
-						</ul>
+						<a href="javascript:void(0)">Home</a>
 					</li>
 					<li>
-						<a href='product.html'>Products</a>
-						<ul>
-							<li>
-								<a href="#" class="nolink">PRODUCT PAGES</a>
-								<ul>
-									<li><a href='product.html'>SIMPLE PRODUCT</a></li>
-									<li><a href='product-variable.html'>VARIABLE PRODUCT</a></li>
-									<li><a href='product.html'>SALE PRODUCT</a></li>
-									<li><a href='product.html'>FEATURED & ON SALE</a></li>
-									<li><a href='product-sticky-info.html'>WIDTH CUSTOM TAB</a></li>
-									<li><a href='product-sidebar-left.html'>WITH LEFT SIDEBAR</a></li>
-									<li><a href='product-sidebar-right.html'>WITH RIGHT SIDEBAR</a></li>
-									<li><a href='product-addcart-sticky.html'>ADD CART STICKY</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#" class="nolink">PRODUCT LAYOUTS</a>
-								<ul>
-									<li><a href='product-extended-layout.html'>EXTENDED LAYOUT</a></li>
-									<li><a href='product-grid-layout.html'>GRID IMAGE</a></li>
-									<li><a href='product-full-width.html'>FULL WIDTH LAYOUT</a></li>
-									<li><a href='product-sticky-info.html'>STICKY INFO</a></li>
-									<li><a href='product-sticky-both.html'>LEFT & RIGHT STICKY</a></li>
-									<li><a href='product-transparent-image.html'>TRANSPARENT IMAGE</a></li>
-									<li><a href='product-center-vertical.html'>CENTER VERTICAL</a></li>
-									<li><a href="#">BUILD YOUR OWN</a></li>
-								</ul>
-							</li>
-						</ul>
+						<a href="javascript:void(0)">Products</a>
 					</li>
 					<li>
-						<a href="#">Pages<span class="tip tip-hot">Hot!</span></a>
-						<ul>
-							<li>
-								<a href='wishlist.html'>Wishlist</a>
-							</li>
-							<li>
-								<a href='cart.html'>Shopping Cart</a>
-							</li>
-							<li>
-								<a href='checkout.html'>Checkout</a>
-							</li>
-							<li>
-								<a href='dashboard.html'>Dashboard</a>
-							</li>
-							<li>
-								<a href='login.html'>Login</a>
-							</li>
-							<li>
-								<a href='forgot-password.html'>Forgot Password</a>
-							</li>
-						</ul>
+						<a href="javascript:void(0)">Categories</a>
 					</li>
-					<li><a href='blog.html'>Blog</a></li>
-					<li><a href="#">Elements</a>
-						<ul class="custom-scrollbar">
-							<li><a href='element-accordions.html'>Accordion</a></li>
-							<li><a href='element-alerts.html'>Alerts</a></li>
-							<li><a href='element-animations.html'>Animations</a></li>
-							<li><a href='element-banners.html'>Banners</a></li>
-							<li><a href='element-buttons.html'>Buttons</a></li>
-							<li><a href='element-call-to-action.html'>Call to Action</a></li>
-							<li><a href='element-countdown.html'>Count Down</a></li>
-							<li><a href='element-counters.html'>Counters</a></li>
-							<li><a href='element-headings.html'>Headings</a></li>
-							<li><a href='element-icons.html'>Icons</a></li>
-							<li><a href='element-info-box.html'>Info box</a></li>
-							<li><a href='element-posts.html'>Posts</a></li>
-							<li><a href='element-products.html'>Products</a></li>
-							<li><a href='element-product-categories.html'>Product Categories</a></li>
-							<li><a href='element-tabs.html'>Tabs</a></li>
-							<li><a href='element-testimonial.html'>Testimonials</a></li>
-						</ul>
+					<li>
+						<a href="javascript:void(0)">About Us</a>
 					</li>
+					<li>
+						<a href="javascript:void(0)">Quality</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">Blog</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">Case Study</a>
+					</li>
+
 				</ul>
 
-				<ul class="mobile-menu mt-2 mb-2">
-					<li class="border-0">
-						<a href="#">
-							Special Offer!
-						</a>
-					</li>
-					<li class="border-0">
-						<a href="#" target="_blank">
-							Buy Porto!
-							<span class="tip tip-hot">Hot</span>
-						</a>
-					</li>
-				</ul>
 
-				<ul class="mobile-menu">
-					<li><a href='login.html'>My Account</a></li>
-					<li><a href='contact.html'>Contact Us</a></li>
-					<li><a href='blog.html'>Blog</a></li>
-					<li><a href='wishlist.html'>My Wishlist</a></li>
-					<li><a href='cart.html'>Cart</a></li>
-					<li><a class='login-link' href='login.html'>Log In</a></li>
-				</ul>
-			</nav><!-- End .mobile-nav -->
 
-			<form class="search-wrapper mb-2" action="#">
-				<input type="text" class="form-control mb-0" placeholder="Search..." required />
-				<button class="btn icon-search text-white bg-transparent p-0" type="submit"></button>
-			</form>
+			</nav>
+
+
 
 			<div class="social-icons">
 				<a href="#" class="social-icon social-facebook icon-facebook" target="_blank">
@@ -580,38 +507,11 @@
 				<a href="#" class="social-icon social-instagram icon-instagram" target="_blank">
 				</a>
 			</div>
-		</div><!-- End .mobile-menu-wrapper -->
+		</div>
+		<!-- End .mobile-menu-wrapper -->
 	</div><!-- End .mobile-menu-container -->
 
-	<div class="sticky-navbar">
-		<div class="sticky-info">
-			<a href="demo4.html">
-				<i class="icon-home"></i>Home
-			</a>
-		</div>
-		<div class="sticky-info">
-			<a class href='category.html'>
-				<i class="icon-bars"></i>Categories
-			</a>
-		</div>
-		<div class="sticky-info">
-			<a class href='wishlist.html'>
-				<i class="icon-wishlist-2"></i>Wishlist
-			</a>
-		</div>
-		<div class="sticky-info">
-			<a class href='login.html'>
-				<i class="icon-user-2"></i>Account
-			</a>
-		</div>
-		<div class="sticky-info">
-			<a class href='cart.html'>
-				<i class="icon-shopping-cart position-relative">
-					<span class="cart-count badge-circle">3</span>
-				</i>Cart
-			</a>
-		</div>
-	</div>
+
 
 
 

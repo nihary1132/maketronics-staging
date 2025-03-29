@@ -1,1180 +1,988 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>MakeTronics Home Page</title>
+  <title>MakeTronics Home Page</title>
 
-    <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Porto - Bootstrap eCommerce Template" />
-    <meta name="author" content="SW-THEMES" />
+  <meta name="keywords" content="HTML5 Template" />
+  <meta name="description" content="Porto - Bootstrap eCommerce Template" />
+  <meta name="author" content="SW-THEMES" />
 
-    <!-- Favicon -->
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="assets/images/icons/favicon.png"
-    />
-    <link
-      rel="stylesheet"
-      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/images/icons/favicon.png" />
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 
-    <script>
-      WebFontConfig = {
-        google: {
-          families: [
-            "Open+Sans:300,400,600,700,800",
-            "Poppins:300,400,500,600,700",
-            "Shadows+Into+Light:400",
-          ],
-        },
-      };
-      (function (d) {
-        var wf = d.createElement("script"),
-          s = d.scripts[0];
-        wf.src = "assets/js/webfont.js";
-        wf.async = true;
-        s.parentNode.insertBefore(wf, s);
-      })(document);
-    </script>
+  <script>
+    WebFontConfig = {
+      google: {
+        families: [
+          "Open+Sans:300,400,600,700,800",
+          "Poppins:300,400,500,600,700",
+          "Shadows+Into+Light:400",
+        ],
+      },
+    };
+    (function (d) {
+      var wf = d.createElement("script"),
+        s = d.scripts[0];
+      wf.src = "assets/js/webfont.js";
+      wf.async = true;
+      s.parentNode.insertBefore(wf, s);
+    })(document);
+  </script>
 
-    <!-- Plugins CSS File -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!-- Plugins CSS File -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
-    <!-- Main CSS File -->
-    <link rel="stylesheet" href="assets/css/style.min.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/vendor/fontawesome-free/css/all.min.css"
-    />
-  </head>
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="assets/css/style.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css" />
+</head>
 
-  <body>
-    <div class="page-wrapper">
-      <header class="header">
-        <div class="sticky-wrapper head">
-          <div
-            class="header-middle sticky-header"
-            data-sticky-options="{'mobile': true}"
-          >
-            <div class="container">
-              <div class="header-left col-lg-2 w-auto pl-0">
-                <button
-                  class="mobile-menu-toggler text-primary mr-2"
-                  type="button"
-                >
-                  <i class="fas fa-bars"></i>
-                </button>
-                <a
-                  class="logo"
-                  href="/portotheme.com/html/porto_ecommerce/demo4"
-                >
-                  <img
-                    src="assets/images/banners/logo-header.png"
-                    
-                    alt="Porto Logo"
-                  />
-                </a>
-              </div>
-              <!-- End .header-left -->
-
-              <div class="header-right w-lg-max">
-                <div
-                  class="header-icon header-search header-search-inline header-search-category w-lg-max text-right mt-0"
-                >
-                  <a href="#" class="search-toggle" role="button"
-                    ><i class="icon-search-3"></i
-                  ></a>
-                  <form action="#" method="get">
-                    <div class="header-search-wrapper">
-                      <input
-                        type="search"
-                        class="form-control"
-                        name="q"
-                        id="q"
-                        placeholder="Search..."
-                        required=""
-                      />
-                      <div class="select-custom">
-                        <select id="cat" name="cat">
-                          <option value="">All Categories</option>
-                          <option value="1">Select New</option>
-                        </select>
-                      </div>
-                      <!-- End .select-custom -->
-                      <button
-                        class="btn icon-magnifier p-0"
-                        type="submit"
-                      ></button>
-                    </div>
-                    <!-- End .header-search-wrapper -->
-                  </form>
-                </div>
-                <!-- End .header-search -->
-              </div>
-              <!-- End .header-right -->
-            </div>
-            <!-- End .container -->
-          </div>
-        </div>
-        <!-- End .header-middle -->
-
-        <div class="sticky-wrapper">
-          <div
-            class="header-bottom sticky-header d-none d-lg-block"
-            data-sticky-options="{'mobile': false}"
-          >
-            <div class="container">
-              <nav
-                class="main-nav d-flex justify-content-between w-100 align-items-center"
-              >
-                <ul
-                  class="menu sf-js-enabled sf-arrows"
-                  style="touch-action: pan-y"
-                >
-                  <li class="active">
-                    <a href="/portotheme.com/html/porto_ecommerce/demo4"
-                      >Home</a
-                    >
-                  </li>
-                  <li>
-                    <a href="">Products</a>
-                  </li>
-                  <li>
-                    <a href="">Categories</a>
-                  </li>
-                  <li>
-                    <a href="">About Us</a>
-                  </li>
-                  <li>
-                    <a href="">Quality</a>
-                  </li>
-                  <li>
-                    <a href="">Blog</a>
-                  </li>
-                  <li>
-                    <a href="">Case Study</a>
-                  </li>
-                </ul>
-                <a href="javascript:;" class="btn btn-dark mr-2">
-                  Call Us at 1234567890
-                </a>
-              </nav>
-            </div>
-            <!-- End .container -->
-          </div>
-        </div>
-        <!-- End .header-bottom -->
-      </header>
-      <!-- End .header -->
-
-      <main class="main">
-        <section class="banner-section">
-          <video
-            src="./assets/images/banners/video-banner.mp4"
-            autoplay
-            muted
-            playsinline
-            loop
-          ></video>
+<body>
+  <div class="page-wrapper">
+    <header class="header">
+      <div class="sticky-wrapper head">
+        <div class="header-middle sticky-header" data-sticky-options="{'mobile': true}">
           <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <div class="banner-text-and-logo">
-                  <h1>We Are <span>MakeTronics</span></h1>
-
-                  <p>
-                    Solving component obsolescence<br />
-                    with reliable sourcing and global expertise.
-                  </p>
-                  <div class="banner-search-box">
-                    <input
-                      type="text"
-                      name=""
-                      id=""
-                      placeholder="Search Part No."
-                    />
-                    <button type="submit">Search</button>
-                  </div>
-                </div>
-              </div>
+            <div class="header-left col-lg-2 w-auto pl-0">
+              <button class="mobile-menu-toggler text-primary mr-2" type="button">
+                <i class="fas fa-bars"></i>
+              </button>
+              <a class="logo" href="./home.html">
+                <img src="assets/images/banners/logo-header.png" alt="Porto Logo" />
+              </a>
             </div>
-          </div>
-        </section>
+            <!-- End .header-left -->
 
-        <section class="counter-section py-5">
-          <div class="container">
-            <div class="row">
+            <div class="header-right w-lg-max">
               <div
-                class="col-lg-4 appear-animate"
-                data-animation-name="fadeInLeftShorter"
-                data-animation-delay="200"
-              >
-                <div class="counter-box">
-                  <h3>22</h3>
-                  <p>Customers from Other Countries</p>
-                </div>
+                class="header-icon header-search header-search-inline header-search-category w-lg-max text-right mt-0">
+                <a href="#" class="search-toggle" role="button"><i class="icon-search-3"></i></a>
+                <form action="#" method="get">
+                  <div class="header-search-wrapper">
+                    <input type="search" class="form-control" name="q" id="q" placeholder="Search..." required="" />
+                    <div class="select-custom">
+                      <select id="cat" name="cat">
+                        <option value="">All Categories</option>
+                        <option value="1">Select New</option>
+                      </select>
+                    </div>
+                    <!-- End .select-custom -->
+                    <button class="btn icon-magnifier p-0" type="submit"></button>
+                  </div>
+                  <!-- End .header-search-wrapper -->
+                </form>
               </div>
-              <div class="col-lg-4 appear-animate">
-                <div class="counter-box">
-                  <h3>22</h3>
-                  <p>Serving industries</p>
-                </div>
-              </div>
-              <div
-                class="col-lg-4 appear-animate"
-                data-animation-name="fadeInRightShorter"
-                data-animation-delay="200"
-              >
-                <div class="counter-box">
-                  <h3>22</h3>
-                  <p>Customer retention rate (%)</p>
-                </div>
-              </div>
+              <!-- End .header-search -->
             </div>
-          </div>
-        </section>
-
-        <section class="card-section">
-          <div class="container-fluid p-0">
-            <div class="row">
-              <div class="col-lg-4 p-0">
-                <div
-                  class="card-box appear-animate"
-                  id="card-box"
-                  data-animation-name="fadeInLeftShorter"
-                  data-animation-delay="200"
-                >
-                  <div class="card-icon">
-                    <img src="./assets/images/Icon.png" alt="" />
-                  </div>
-                  <div class="card-text">
-                    <h3>Procurement & Quality Control</h3>
-                    <p>
-                      Maketronics sources only from ISO 9001, ISO 14005, and
-                      ERAI-certified suppliers following IDEA-STD-1010. Vetted
-                      partners with in-house testing ensure authenticity and
-                      performance. Strict quality controls for risk-free
-                      component sourcing.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 p-0">
-                <div class="card-box appear-animate" id="card-box1">
-                  <div class="card-icon">
-                    <img src="./assets/images/Icon-1.png" alt="" />
-                  </div>
-                  <div class="card-text">
-                    <h3>Value-added Services</h3>
-                    <p>
-                      Visual and functional testing via third-party labs ensures
-                      authenticity and performance. Hassle-free sourcing with
-                      verified quality—no customer-arranged testing needed.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 p-0">
-                <div
-                  class="card-box appear-animate"
-                  id="card-box2"
-                  data-animation-name="fadeInRightShorter"
-                  data-animation-delay="200"
-                >
-                  <div class="card-icon">
-                    <img src="./assets/images/Icon-2.png" alt="" />
-                  </div>
-                  <div class="card-text">
-                    <h3>Efficiency at Maketronics</h3>
-                    <p>
-                      Speed is our strength—sourcing, verifying, and delivering
-                      solutions fast. Quotes guaranteed within 24 hours.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="why-do-we-exist section-padding">
-          <div class="container">
-            <div class="intHead">
-              <h4>Why Do We Exist ?</h4>
-              <h6>
-                Electronic component obsolescence is a growing challenge. We
-                help businesses stay ahead of it.
-              </h6>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-lg-6">
-                <img
-                  src="./assets/images/why-do-exist.jpeg"
-                  alt=""
-                  class="why-exist-img"
-                />
-              </div>
-              <div class="col-lg-6">
-                <div class="side-text">
-                  <ul class="side-list">
-                    <li>
-                      <img src="./assets/images/08.png" alt="" />
-                      <div class="side-list-text">
-                        <h2>EOL Notices</h2>
-                        <p>
-                          Over <b>328,000</b> End-of-Life (EOL) notices were
-                          issued in 2023
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <img src="./assets/images/09.png" alt="" />
-                      <div class="side-list-text">
-                        <h2>Instant Obsolescence</h2>
-                        <p>
-                          <b>35%</b> of electronic components face instant
-                          obsolescence
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <img src="./assets/images/07.png" alt="" />
-                      <div class="side-list-text">
-                        <h2>The Impact</h2>
-                        <p>
-                          This creates massive supply chain challenges for
-                          Automotive Med-tech Industrial automation IOT
-                          Electronics We source obsolete components so your
-                          supply chain never stops. Let’s solve obsolescence
-                          together.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="about-section-new section-padding">
-          <div class="container">
-            <div class="intHead">
-              <h4>True Cost of Obsolescence</h4>
-              <h6>
-                Obsolete components don’t just disrupt supply chains—they cost
-                businesses millions
-              </h6>
-            </div>
-            <div class="row">
-            
-
-              <div class="col-lg-4">
-                <div class="inner-obs-box">
-                  <img src="./assets/images/05.png" alt="" />
-                  <p>
-                    <b>Automobile</b>
-                    $22K/min
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="inner-obs-box">
-                  <img src="./assets/images/04.png" alt="" />
-                  <p>
-                    <b>Telecommunications</b>
-                    $9K/min
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="inner-obs-box">
-                  <img src="./assets/images/03.png" alt="" />
-                  <p>
-                    <b>Healthcare</b>
-                    $8.6K/min
-                  </p>
-                </div>
-              </div>
-
-              <div class="button-box text-start  w-100 py-3 pt-5">
-                <a href="" class="btn btn-primary">
-                  Read More
-                </a>
-              </div>
-
-              <div class="col-lg-12 hidden-text d-none">
-                  <div class="row">
-                    <p class="img-text col-6">
-                      <span>Redesign Costs</span>Product redesigns due to obsolete components can cost anywhere from $100,000 to $1.5M+ per occurrence.
-                      
-                    </p>
-                    <p class="img-text col-6">
-                      <span>The Risk of Unreliable Sourcing</span>Automotive Med-tech Industrial automation IOT  Electronics
-                      
-                    </p>
-
-                  </div>
-              </div>
-
-            </div>
-          </div>
-        </section>
-
-        <section class="Maketronics-Solves section-padding pt-0">
-          <div class="row">
-            <div class="container">
-              <div class="col-lg-12 col-md-6">
-                <div class="title-head py-4">
-                  <h2>
-                    How Maketronics Solves
-                    <span> the Obsolescence Challenge </span>
-                  </h2>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <img
-                  src="./assets/images/maketronics-front-banner.png"
-                  alt=""
-                  class="img-fluid"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="blog-section m-b-3 mt-4">
-          <div class="container">
-            <div class="row">
-              <div class="title-head">
-                <h2>Read Our <span>Blogs</span></h2>
-              </div>
-
-              <div class="col-lg-12 .col-md-6 .col-sm">
-                <div class="swiper mySwiper">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide border">
-                      <div class="blog-details">
-                        <img src="assets/images/SOIC_16_SPL.jpg" alt="" />
-                        <div class="blog-para">
-                          <p class="blog-para-p">
-                            The PDM31001ZXM is an advanced integrated circuit
-                            (IC) designed to deliver exceptional performance and
-                            reliability in a wide range of industrial
-                            applications. Leveraging state-of-the-art
-                            technology, the PDM31001ZXM offers superior
-                            functionality and efficiency, making it an ideal
-                            choice for engineers and product designers.
-                          </p>
-                          <button class="read-more">
-                            Read More
-                            <i class="ri-arrow-right-s-line"></i>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide border">
-                      <div class="blog-details">
-                        <img
-                          src="assets/images/PDM31002ZXM_SPL-1.webp"
-                          alt=""
-                        />
-                        <div class="blog-para">
-                          <p class="blog-para-p">
-                            The ABF-075 is a cutting-edge integrated circuit
-                            designed to meet the demanding requirements of
-                            modern electronic applications. Known for its high
-                            performance and reliability, the ABF-075 is a
-                            versatile IC that is perfect for a wide range of
-                            industrial applications. This IC combines advanced
-                            technology with robust design, ensuring superior
-                            performance in various operational environments.
-                          </p>
-                          <button class="read-more">
-                            Read More
-                            <i class="ri-arrow-right-s-line"></i>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide border">
-                      <div class="blog-details">
-                        <img src="assets/images/MFG_P78E05-1000.webp" alt="" />
-                        <div class="blog-para">
-                          <p class="blog-para-p">
-                            The P78E05-1000 DC-DC converter is designed to
-                            convert a wide range of input voltages to a stable
-                            5V output with high efficiency. Its compact design
-                            and advanced features make it ideal for applications
-                            where power stability and space efficiency are
-                            critical. The converter’s low ripple and noise
-                            characteristics ensure optimal performance in
-                            sensitive electronic applications.
-                          </p>
-                          <button class="read-more">
-                            Read More
-                            <i class="ri-arrow-right-s-line"></i>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide border">
-                      <div class="blog-details">
-                        <img src="assets/images/MFG_BxxxxXT-1WR3.webp" alt="" />
-                        <div class="blog-para">
-                          <p class="blog-para-p">
-                            The B1205XT-1WR3 is a high-performance DC-DC
-                            converter designed to provide reliable and efficient
-                            power conversion in a variety of applications. This
-                            compact and robust converter is ideal for use in
-                            industrial automation, telecommunications, and
-                            medical devices, offering excellent performance and
-                            versatility.
-                          </p>
-                          <button class="read-more">
-                            Read More
-                            <i class="ri-arrow-right-s-line"></i>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide border">
-                      <div class="blog-details">
-                        <img src="assets/images/MCF5216CVM66-1.webp" alt="" />
-                        <div class="blog-para">
-                          <p class="blog-para-p">
-                            The MCF5216CVM66 microcontroller integrates a
-                            powerful ColdFire® V2 core running at 66 MHz,
-                            delivering exceptional performance for demanding
-                            applications. It features a range of integrated
-                            peripherals, including UARTs, QSPI, I2C, timers, and
-                            an enhanced CAN module, making it a versatile choice
-                            for developers looking to streamline their designs.
-                          </p>
-                          <button class="read-more">
-                            Read More
-                            <i class="ri-arrow-right-s-line"></i>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide border">
-                      <div class="blog-details">
-                        <img
-                          src="assets/images/Nexperia_SOT360-1_TSSOP-20_SPL.webp"
-                          alt=""
-                        />
-                        <div class="blog-para">
-                          <p class="blog-para-p">
-                            Part No. 74AHCT245PW,118 is a high-performance octal
-                            bus transceiver designed to facilitate bidirectional
-                            data transfer between different voltage nodes.
-                            Engineered with precision and ingenuity, this
-                            component boasts robust construction and advanced
-                            features, making it an indispensable asset in modern
-                            electronic circuits.
-                          </p>
-                          <button class="read-more">
-                            Read More
-                            <i class="ri-arrow-right-s-line"></i>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="Review-section">
-          <div class="container">
-            <div class="row">
-              <div class="title-head">
-                <h2>Our <span>Customer Feedback</span></h2>
-              </div>
-
-              <div class="col-lg-12 .col-md-6 .col-sm">
-                <div class="swiper custom-slider mb-5 mt-3">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide border">
-                      <div class="head-sec">
-                        <img src="/assets/images/Rectangle 729.png" alt="" />
-                        <div class="star-reviews">
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                        </div>
-                      </div>
-                      <div class="cont-section">
-                        <div class="name">Robu.in</div>
-                        <p class="description">
-                          Lorem ipsum dolor sit, amet consectetur adipisicing
-                          elit. Explicabo magnam vero totam non. At illum autem
-                          obcaecati facere maiores? Nesciunt magnam at
-                          praesentium quasi velit quae deserunt id in odit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="swiper-slide border">
-                      <div class="head-sec">
-                        <img src="/assets/images/profile-img2.png" alt="" />
-                        <div class="star-reviews">
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <!-- <i class="ri-star-fill"></i> -->
-                          <i class="ri-star-half-fill"></i>
-                        </div>
-                      </div>
-                      <div class="cont-section">
-                        <div class="name">Hardik Raja</div>
-                        <p class="description">
-                          Lorem ipsum dolor sit, amet consectetur adipisicing
-                          elit. Explicabo magnam vero totam non. At illum autem
-                          obcaecati facere maiores? Nesciunt magnam at
-                          praesentium quasi velit quae deserunt id in odit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="swiper-slide border">
-                      <div class="head-sec">
-                        <img src="/assets/images/profile-img2.png" alt="" />
-                        <div class="star-reviews">
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-half-fill"></i>
-                        </div>
-                      </div>
-                      <div class="cont-section">
-                        <div class="name">Robu.in</div>
-                        <p class="description">
-                          Lorem ipsum dolor sit, amet consectetur adipisicing
-                          elit. Explicabo magnam vero totam non. At illum autem
-                          obcaecati facere maiores? Nesciunt magnam at
-                          praesentium quasi velit quae deserunt id in odit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="swiper-slide border">
-                      <div class="head-sec">
-                        <img src="/assets/images/Rectangle 729.png" alt="" />
-                        <div class="star-reviews">
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <!-- <i class="ri-star-fill"></i> -->
-                          <!-- <i class="ri-star-fill"></i> -->
-                          <i class="ri-star-half-fill"></i>
-                        </div>
-                      </div>
-                      <div class="cont-section">
-                        <div class="name">Near Learn</div>
-                        <p class="description">
-                          Lorem ipsum dolor sit, amet consectetur adipisicing
-                          elit. Explicabo magnam vero totam non. At illum autem
-                          obcaecati facere maiores? Nesciunt magnam at
-                          praesentium quasi velit quae deserunt id in odit.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="swiper-slide border">
-                      <div class="head-sec">
-                        <img src="/assets/images/Rectangle 729.png" alt="" />
-                        <div class="star-reviews">
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <i class="ri-star-fill"></i>
-                          <!-- <i class="ri-star-fill"></i> -->
-                          <i class="ri-star-half-fill"></i>
-                        </div>
-                      </div>
-                      <div class="cont-section">
-                        <div class="name">Sushdopaminedecor</div>
-                        <p class="description">
-                          Lorem ipsum dolor sit, amet consectetur adipisicing
-                          elit. Explicabo magnam vero totam non. At illum autem
-                          obcaecati facere maiores? Nesciunt magnam at
-                          praesentium quasi velit quae deserunt id in odit.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-pagination"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="relate-products-section">
-          <div class="container">
-            <div class="products-section pt-0">
-              <div class="title-head">
-                <h2>Realted <span>Products</span></h2>
-              </div>
-
-              <div
-                class="products-slider owl-carousel owl-theme dots-top dots-small"
-              >
-                <div class="product-default">
-                  <figure>
-                    <a href="product.html">
-                      <img
-                        src="assets/images/products/product-1.jpg"
-                        width="280"
-                        height="280"
-                        alt="product"
-                      />
-                      <img
-                        src="assets/images/products/product-1-2.jpg"
-                        width="280"
-                        height="280"
-                        alt="product"
-                      />
-                    </a>
-                  </figure>
-                  <div class="product-details">
-                    <div class="category-list">
-                      <a class="product-category" href="category.html"
-                        >Category</a
-                      >
-                    </div>
-                    <h3 class="product-title">
-                      <a href="product.html">Ultimate 3D Bluetooth Speaker</a>
-                    </h3>
-                    <div class="ratings-container">
-                      <div class="product-ratings">
-                        <span class="ratings" style="width: 80%"></span>
-                        <!-- End .ratings -->
-                        <span class="tooltiptext tooltip-top"></span>
-                      </div>
-                      <!-- End .product-ratings -->
-                    </div>
-                    <!-- End .product-container -->
-                    <div class="price-box">
-                      <del class="old-price">$59.00</del>
-                      <span class="product-price">$49.00</span>
-                    </div>
-                    <!-- End .price-box -->
-                    <div class="product-action">
-                      <a
-                        class="btn-icon-wish"
-                        href="wishlist.html"
-                        title="Wishlist"
-                        ><i class="icon-heart"></i
-                      ></a>
-                      <a class="btn-icon btn-add-cart" href="product.html"
-                        ><i class="fa fa-arrow-right"></i
-                        ><span>SELECT OPTIONS</span></a
-                      >
-                      <a
-                        href="ajax/product-quick-view.html"
-                        class="btn-quickview"
-                        title="Quick View"
-                        ><i class="fas fa-external-link-alt"></i
-                      ></a>
-                    </div>
-                  </div>
-                  <!-- End .product-details -->
-                </div>
-
-                <div class="product-default">
-                  <figure>
-                    <a href="product.html">
-                      <img
-                        src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/407/RS-SERIES-10mm.jpg"
-                        width="280"
-                        height="280"
-                        alt="product"
-                      />
-                      <img
-                        src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/407/RS-SERIES-10mm.jpg"
-                        width="280"
-                        height="280"
-                        alt="product"
-                      />
-                    </a>
-                    <!-- <div class="label-group">
-                                        <div class="product-label label-hot">HOT</div>
-                                        <div class="product-label label-sale">-20%</div>
-                                    </div> -->
-                  </figure>
-                  <div class="product-details">
-                    <div class="category-list">
-                      <a class="product-category" href="category.html"
-                        >Category</a
-                      >
-                    </div>
-                    <h3 class="product-title">
-                      <a href="product.html"> Vishay Beyschlag/Draloric</a>
-                    </h3>
-                    <div class="ratings-container">
-                      <div class="product-ratings">
-                        <span class="ratings" style="width: 80%"></span>
-                        <!-- End .ratings -->
-                        <span class="tooltiptext tooltip-top"></span>
-                      </div>
-                      <!-- End .product-ratings -->
-                    </div>
-                    <!-- End .product-container -->
-                    <div class="price-box">
-                      <del class="old-price">$59.00</del>
-                      <span class="product-price">$49.00</span>
-                    </div>
-                    <!-- End .price-box -->
-                    <div class="product-action">
-                      <a
-                        class="btn-icon-wish"
-                        href="wishlist.html"
-                        title="Wishlist"
-                        ><i class="icon-heart"></i
-                      ></a>
-                      <a class="btn-icon btn-add-cart" href="product.html"
-                        ><i class="fa fa-arrow-right"></i
-                        ><span>SELECT OPTIONS</span></a
-                      >
-                      <a
-                        href="ajax/product-quick-view.html"
-                        class="btn-quickview"
-                        title="Quick View"
-                        ><i class="fas fa-external-link-alt"></i
-                      ></a>
-                    </div>
-                  </div>
-                  <!-- End .product-details -->
-                </div>
-
-                <div class="product-default">
-                  <figure>
-                    <a href="product.html">
-                      <img
-                        src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4838/Vishay-Mal203-6,3x11.JPG"
-                        width="280"
-                        height="280"
-                        alt="product"
-                      />
-                      <img
-                        src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4838/Vishay-Mal203-6,3x11.JPG"
-                        width="280"
-                        height="280"
-                        alt="product"
-                      />
-                    </a>
-                  </figure>
-                  <div class="product-details">
-                    <div class="category-list">
-                      <a class="product-category" href="category.html"
-                        >Category</a
-                      >
-                    </div>
-                    <h3 class="product-title">
-                      <a href="product.html"> Draloric/BC Components</a>
-                    </h3>
-                    <div class="ratings-container">
-                      <div class="product-ratings">
-                        <span class="ratings" style="width: 80%"></span>
-                        <!-- End .ratings -->
-                        <span class="tooltiptext tooltip-top"></span>
-                      </div>
-                      <!-- End .product-ratings -->
-                    </div>
-                    <!-- End .product-container -->
-                    <div class="price-box">
-                      <del class="old-price">$59.00</del>
-                      <span class="product-price">$49.00</span>
-                    </div>
-                    <!-- End .price-box -->
-                    <div class="product-action">
-                      <a
-                        class="btn-icon-wish"
-                        href="wishlist.html"
-                        title="Wishlist"
-                        ><i class="icon-heart"></i
-                      ></a>
-                      <a class="btn-icon btn-add-cart" href="product.html"
-                        ><i class="fa fa-arrow-right"></i
-                        ><span>SELECT OPTIONS</span></a
-                      >
-                      <a
-                        href="ajax/product-quick-view.html"
-                        class="btn-quickview"
-                        title="Quick View"
-                        ><i class="fas fa-external-link-alt"></i
-                      ></a>
-                    </div>
-                  </div>
-                  <!-- End .product-details -->
-                </div>
-
-                <div class="product-default">
-                  <figure>
-                    <a href="product.html">
-                      <img
-                        src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/407/RS-SERIES-10mm.jpg"
-                        width="280"
-                        height="280"
-                        alt="product"
-                      />
-                      <img
-                        src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/407/RS-SERIES-10mm.jpg"
-                        width="280"
-                        height="280"
-                        alt="product"
-                      />
-                    </a>
-                  </figure>
-                  <div class="product-details">
-                    <div class="category-list">
-                      <a class="product-category" href="category.html"
-                        >Category</a
-                      >
-                    </div>
-                    <h3 class="product-title">
-                      <a href="product.html">urs1e221mpd1td – Nichicon</a>
-                    </h3>
-                    <div class="ratings-container">
-                      <div class="product-ratings">
-                        <span class="ratings" style="width: 80%"></span>
-                        <!-- End .ratings -->
-                        <span class="tooltiptext tooltip-top"></span>
-                      </div>
-                      <!-- End .product-ratings -->
-                    </div>
-
-                    <div class="price-box">
-                      <del class="old-price">$59.00</del>
-                      <span class="product-price">$49.00</span>
-                    </div>
-                    <!-- End .price-box -->
-                    <div class="product-action">
-                      <a
-                        class="btn-icon-wish"
-                        href="wishlist.html"
-                        title="Wishlist"
-                        ><i class="icon-heart"></i
-                      ></a>
-                      <a class="btn-icon btn-add-cart" href="product.html"
-                        ><i class="fa fa-arrow-right"></i
-                        ><span>SELECT OPTIONS</span></a
-                      >
-                      <a
-                        href="ajax/product-quick-view.html"
-                        class="btn-quickview"
-                        title="Quick View"
-                        ><i class="fas fa-external-link-alt"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer class="footer">
-        <div class="footer-middle">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-3 col-sm-6">
-                <div class="widget">
-                  <h4 class="widget-title">Contact Info</h4>
-                  <ul class="contact-info">
-                    <li>
-                      <span class="contact-info-label">Address:</span> 123
-                      Street Name, City, England
-                    </li>
-                    <li>
-                      <span class="contact-info-label">Phone:</span
-                      ><a href="tel:">(123) 456-7890</a>
-                    </li>
-                    <li>
-                      <span class="contact-info-label">Email:</span>
-                      <a
-                        href="https://portotheme.com/cdn-cgi/l/email-protection#dcb1bdb5b09cb9a4bdb1acb0b9f2bfb3b1"
-                        ><span
-                          class="__cf_email__"
-                          data-cfemail="dfb2beb6b39fbaa7beb2afb3baf1bcb0b2"
-                          >[email&#160;protected]</span
-                        ></a
-                      >
-                    </li>
-                    <li>
-                      <span class="contact-info-label"
-                        >Working Days/Hours:</span
-                      >
-                      Mon - Sun / 9:00 AM - 8:00 PM
-                    </li>
-                  </ul>
-                  <div class="social-icons">
-                    <a
-                      href="#"
-                      class="social-icon social-facebook icon-facebook"
-                      target="_blank"
-                      title="Facebook"
-                    ></a>
-                    <a
-                      href="#"
-                      class="social-icon social-twitter icon-twitter"
-                      target="_blank"
-                      title="Twitter"
-                    ></a>
-                    <a
-                      href="#"
-                      class="social-icon social-instagram icon-instagram"
-                      target="_blank"
-                      title="Instagram"
-                    ></a>
-                  </div>
-                  <!-- End .social-icons -->
-                </div>
-                <!-- End .widget -->
-              </div>
-              <!-- End .col-lg-3 -->
-
-              <div class="col-lg-3 col-sm-6">
-                <div class="widget">
-                  <h4 class="widget-title">GENERAL</h4>
-
-                  <ul class="links">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Products</a></li>
-                    
-                  </ul>
-                </div>
-                <!-- End .widget -->
-              </div>
-              <!-- End .col-lg-3 -->
-
-              <div class="col-lg-3 col-sm-6">
-                <div class="widget">
-                  <h4 class="widget-title">LEGAL</h4>
-                  <ul class="links">
-                    <li><a href="#">Shipping Details</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Refund Policy</a></li>
-                    
-                  </ul>
-                  
-                </div>
-                <!-- End .widget -->
-              </div>
-              <!-- End .col-lg-3 -->
-
-              <div class="col-lg-3 col-sm-6">
-                <div class="widget widget-newsletter">
-                  <h4 class="widget-title">SOCIAL MEDIA</h4>
-
-                  <a href="#" class="btn btn-primary">Subscrible on Linkedin</a>
-                  
-                  
-                </div>
-                <!-- End .widget -->
-              </div>
-              <!-- End .col-lg-3 -->
-            </div>
-            <!-- End .row -->
+            <!-- End .header-right -->
           </div>
           <!-- End .container -->
         </div>
-        <!-- End .footer-middle -->
+      </div>
+      <!-- End .header-middle -->
 
+      <div class="sticky-wrapper">
+        <div class="header-bottom sticky-header d-none d-lg-block" data-sticky-options="{'mobile': false}">
+          <div class="container">
+            <nav class="main-nav d-flex justify-content-between w-100 align-items-center">
+              <ul class="menu sf-js-enabled sf-arrows" style="touch-action: pan-y">
+                <li class="active">
+                  <a href="./home.html">Home</a>
+                </li>
+                <li>
+                  <a href="">Products</a>
+                </li>
+                <li>
+                  <a href="">Categories</a>
+                </li>
+                <li>
+                  <a href="./AboutUs.html">About Us</a>
+                </li>
+                <li>
+                  <a href="">Quality</a>
+                </li>
+                <li>
+                  <a href="">Blog</a>
+                </li>
+                <li>
+                  <a href="">Case Study</a>
+                </li>
+              </ul>
+              <a href="javascript:;" class="btn callus-home mr-2">
+                Call Us at 1234567890
+              </a>
+            </nav>
+          </div>
+          <!-- End .container -->
+        </div>
+      </div>
+      <!-- End .header-bottom -->
+    </header>
+    <!-- End .header -->
+
+    <main class="main">
+      <section class="banner-section">
+        <video src="./assets/images/banners/video-banner.mp4" autoplay muted playsinline loop></video>
         <div class="container">
-          <div class="footer-bottom">
-            <div class="container d-sm-flex align-items-center justify-content-center">
-              <span class="footer-copyright"
-                  >© MAKETRONICS. 2021. All Rights Reserved</span
-                >
-              
+          <div class="row">
+            <div class="col-12">
+              <div class="banner-text-and-logo">
+                <h1>We Are <span>MakeTronics</span></h1>
+
+                <p>
+                  Solving component obsolescence<br />
+                  with reliable sourcing and global expertise.
+                </p>
+                <div class="banner-search-box">
+                  <input type="text" name="" id="" placeholder="Search Part No." />
+                  <button type="submit">Search</button>
+                </div>
+              </div>
             </div>
           </div>
-          <!-- End .footer-bottom -->
+        </div>
+      </section>
+
+      <section class="counter-section py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 appear-animate" data-animation-name="fadeInLeftShorter" data-animation-delay="200">
+              <div class="counter-box">
+                <h3>22</h3>
+                <p>Customers from Other Countries</p>
+              </div>
+            </div>
+            <div class="col-lg-4 appear-animate">
+              <div class="counter-box">
+                <h3>22</h3>
+                <p>Serving industries</p>
+              </div>
+            </div>
+            <div class="col-lg-4 appear-animate" data-animation-name="fadeInRightShorter" data-animation-delay="200">
+              <div class="counter-box">
+                <h3>22</h3>
+                <p>Customer retention rate (%)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card-section">
+        <div class="container-fluid p-0">
+          <div class="row">
+            <div class="col-lg-4 p-0">
+              <div class="card-box appear-animate" id="card-box" data-animation-name="fadeInLeftShorter"
+                data-animation-delay="200">
+                <div class="card-icon">
+                  <img src="./assets/images/card3 (1).png" alt="" />
+                </div>
+                <div class="card-text">
+                  <h3>Procurement & Quality Control</h3>
+                  <p>
+                    Maketronics sources only from ISO 9001, ISO 14005, and
+                    ERAI-certified suppliers following IDEA-STD-1010. Vetted
+                    partners with in-house testing ensure authenticity and
+                    performance. Strict quality controls for risk-free
+                    component sourcing.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 p-0">
+              <div class="card-box appear-animate" id="card-box1">
+                <div class="card-icon">
+                  <img src="./assets/images/card3 (2).png" alt="" />
+                </div>
+                <div class="card-text">
+                  <h3>Value-added Services</h3>
+                  <p>
+                    Visual and functional testing via third-party labs ensures
+                    authenticity and performance. Hassle-free sourcing with
+                    verified quality—no customer-arranged testing needed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 p-0">
+              <div class="card-box appear-animate" id="card-box2" data-animation-name="fadeInRightShorter"
+                data-animation-delay="200">
+                <div class="card-icon">
+                  <img src="./assets/images/card3 (3).png" alt="" />
+                </div>
+                <div class="card-text">
+                  <h3>Efficiency at Maketronics</h3>
+                  <p>
+                    Speed is our strength—sourcing, verifying, and delivering
+                    solutions fast. Quotes guaranteed within 24 hours.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-do-we-exist section-padding">
+        <div class="container">
+          <div class="intHead">
+            <h4>Why Do We Exist ?</h4>
+            <h6>
+              Electronic component obsolescence is a growing challenge. We
+              help businesses stay ahead of it.
+            </h6>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img src="./assets/images/why-do-exist.jpeg" alt="" class="why-exist-img" />
+            </div>
+            <div class="col-lg-6">
+              <div class="side-text">
+                <ul class="side-list">
+                  <li>
+                    <img src="./assets/images/08.png" alt="" />
+                    <div class="side-list-text">
+                      <h2>EOL Notices</h2>
+                      <p>
+                        Over <b>328,000</b> End-of-Life (EOL) notices were
+                        issued in 2023
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="./assets/images/09.png" alt="" />
+                    <div class="side-list-text">
+                      <h2>Instant Obsolescence</h2>
+                      <p>
+                        <b>35%</b> of electronic components face instant
+                        obsolescence
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="./assets/images/07.png" alt="" />
+                    <div class="side-list-text">
+                      <h2>The Impact</h2>
+                      <p>
+                        This creates massive supply chain challenges for
+                        Automotive Med-tech Industrial automation IOT
+                        Electronics We source obsolete components so your
+                        supply chain never stops. Let’s solve obsolescence
+                        together.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section-new section-padding">
+        <div class="container">
+          <div class="intHead">
+            <h4>True Cost of Obsolescence</h4>
+            <h6>
+              Obsolete components don’t just disrupt supply chains—they cost
+              businesses millions
+            </h6>
+          </div>
+          <div class="row">
+
+
+            <div class="col-lg-4">
+              <div class="inner-obs-box">
+                <img src="./assets/images/05.png" alt="" />
+                <p>
+                  <b>Automobile</b>
+                  $22K/min
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="inner-obs-box">
+                <img src="./assets/images/04.png" alt="" />
+                <p>
+                  <b>Telecommunications</b>
+                  $9K/min
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="inner-obs-box">
+                <img src="./assets/images/03.png" alt="" />
+                <p>
+                  <b>Healthcare</b>
+                  $8.6K/min
+                </p>
+              </div>
+            </div>
+
+            <div class="button-box text-start  w-100 py-3 pt-5">
+              <button class="home-readmore-btn">Read More</button>
+            </div>
+
+            <div class="col-lg-12 hidden-text d-none">
+              <div class="row">
+                <p class="img-text col-6">
+                  <span>Redesign Costs</span>Product redesigns due to obsolete components can cost anywhere from
+                  $100,000 to $1.5M+ per occurrence.
+
+                </p>
+                <p class="img-text col-6">
+                  <span>The Risk of Unreliable Sourcing</span>Automotive Med-tech Industrial automation IOT Electronics
+
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="Maketronics-Solves section-padding pt-0">
+        <div class="row">
+          <div class="container">
+            <div class="col-lg-12 col-md-6">
+              <div class="title-head py-4">
+                <h2>
+                  How Maketronics Solves
+                  <span> the Obsolescence Challenge </span>
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <img src="./assets/images/maketronics-front-banner.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section m-b-3 mt-4">
+        <div class="container">
+          <div class="row">
+            <div class="title-head">
+              <h2>Read Our <span>Blogs</span></h2>
+            </div>
+
+            <div class="col-lg-12 .col-md-6 .col-sm">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide border">
+                    <div class="blog-details">
+                      <img src="assets/images/SOIC_16_SPL.jpg" alt="" />
+                      <div class="blog-para">
+                        <p class="blog-para-p">
+                          The PDM31001ZXM is an advanced integrated circuit
+                          (IC) designed to deliver exceptional performance and
+                          reliability in a wide range of industrial
+                          applications. Leveraging state-of-the-art
+                          technology, the PDM31001ZXM offers superior
+                          functionality and efficiency, making it an ideal
+                          choice for engineers and product designers.
+                        </p>
+                        <button class="read-more">
+                          Read More
+                          <i class="ri-arrow-right-s-line"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide border">
+                    <div class="blog-details">
+                      <img src="assets/images/PDM31002ZXM_SPL-1.webp" alt="" />
+                      <div class="blog-para">
+                        <p class="blog-para-p">
+                          The ABF-075 is a cutting-edge integrated circuit
+                          designed to meet the demanding requirements of
+                          modern electronic applications. Known for its high
+                          performance and reliability, the ABF-075 is a
+                          versatile IC that is perfect for a wide range of
+                          industrial applications. This IC combines advanced
+                          technology with robust design, ensuring superior
+                          performance in various operational environments.
+                        </p>
+                        <button class="read-more">
+                          Read More
+                          <i class="ri-arrow-right-s-line"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide border">
+                    <div class="blog-details">
+                      <img src="assets/images/MFG_P78E05-1000.webp" alt="" />
+                      <div class="blog-para">
+                        <p class="blog-para-p">
+                          The P78E05-1000 DC-DC converter is designed to
+                          convert a wide range of input voltages to a stable
+                          5V output with high efficiency. Its compact design
+                          and advanced features make it ideal for applications
+                          where power stability and space efficiency are
+                          critical. The converter’s low ripple and noise
+                          characteristics ensure optimal performance in
+                          sensitive electronic applications.
+                        </p>
+                        <button class="read-more">
+                          Read More
+                          <i class="ri-arrow-right-s-line"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide border">
+                    <div class="blog-details">
+                      <img src="assets/images/MFG_BxxxxXT-1WR3.webp" alt="" />
+                      <div class="blog-para">
+                        <p class="blog-para-p">
+                          The B1205XT-1WR3 is a high-performance DC-DC
+                          converter designed to provide reliable and efficient
+                          power conversion in a variety of applications. This
+                          compact and robust converter is ideal for use in
+                          industrial automation, telecommunications, and
+                          medical devices, offering excellent performance and
+                          versatility.
+                        </p>
+                        <button class="read-more">
+                          Read More
+                          <i class="ri-arrow-right-s-line"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide border">
+                    <div class="blog-details">
+                      <img src="assets/images/MCF5216CVM66-1.webp" alt="" />
+                      <div class="blog-para">
+                        <p class="blog-para-p">
+                          The MCF5216CVM66 microcontroller integrates a
+                          powerful ColdFire® V2 core running at 66 MHz,
+                          delivering exceptional performance for demanding
+                          applications. It features a range of integrated
+                          peripherals, including UARTs, QSPI, I2C, timers, and
+                          an enhanced CAN module, making it a versatile choice
+                          for developers looking to streamline their designs.
+                        </p>
+                        <button class="read-more">
+                          Read More
+                          <i class="ri-arrow-right-s-line"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide border">
+                    <div class="blog-details">
+                      <img src="assets/images/Nexperia_SOT360-1_TSSOP-20_SPL.webp" alt="" />
+                      <div class="blog-para">
+                        <p class="blog-para-p">
+                          Part No. 74AHCT245PW,118 is a high-performance octal
+                          bus transceiver designed to facilitate bidirectional
+                          data transfer between different voltage nodes.
+                          Engineered with precision and ingenuity, this
+                          component boasts robust construction and advanced
+                          features, making it an indispensable asset in modern
+                          electronic circuits.
+                        </p>
+                        <button class="read-more">
+                          Read More
+                          <i class="ri-arrow-right-s-line"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="Review-section">
+        <div class="container">
+          <div class="row">
+            <div class="title-head">
+              <h2>Our <span>Customer Feedback</span></h2>
+            </div>
+
+            <div class="col-lg-12 .col-md-6 .col-sm">
+              <div class="swiper custom-slider mb-5 mt-3">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide border">
+                    <div class="head-sec">
+                      <img src="/assets/images/Rectangle 729.png" alt="" />
+                      <div class="star-reviews">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                      </div>
+                    </div>
+                    <div class="cont-section">
+                      <div class="name">Robu.in</div>
+                      <p class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Explicabo magnam vero totam non. At illum autem
+                        obcaecati facere maiores? Nesciunt magnam at
+                        praesentium quasi velit quae deserunt id in odit.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide border">
+                    <div class="head-sec">
+                      <img src="/assets/images/profile-img2.png" alt="" />
+                      <div class="star-reviews">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <!-- <i class="ri-star-fill"></i> -->
+                        <i class="ri-star-half-fill"></i>
+                      </div>
+                    </div>
+                    <div class="cont-section">
+                      <div class="name">Hardik Raja</div>
+                      <p class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Explicabo magnam vero totam non. At illum autem
+                        obcaecati facere maiores? Nesciunt magnam at
+                        praesentium quasi velit quae deserunt id in odit.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide border">
+                    <div class="head-sec">
+                      <img src="/assets/images/profile-img2.png" alt="" />
+                      <div class="star-reviews">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </div>
+                    </div>
+                    <div class="cont-section">
+                      <div class="name">Robu.in</div>
+                      <p class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Explicabo magnam vero totam non. At illum autem
+                        obcaecati facere maiores? Nesciunt magnam at
+                        praesentium quasi velit quae deserunt id in odit.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide border">
+                    <div class="head-sec">
+                      <img src="/assets/images/Rectangle 729.png" alt="" />
+                      <div class="star-reviews">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <!-- <i class="ri-star-fill"></i> -->
+                        <!-- <i class="ri-star-fill"></i> -->
+                        <i class="ri-star-half-fill"></i>
+                      </div>
+                    </div>
+                    <div class="cont-section">
+                      <div class="name">Near Learn</div>
+                      <p class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Explicabo magnam vero totam non. At illum autem
+                        obcaecati facere maiores? Nesciunt magnam at
+                        praesentium quasi velit quae deserunt id in odit.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide border">
+                    <div class="head-sec">
+                      <img src="/assets/images/Rectangle 729.png" alt="" />
+                      <div class="star-reviews">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <!-- <i class="ri-star-fill"></i> -->
+                        <i class="ri-star-half-fill"></i>
+                      </div>
+                    </div>
+                    <div class="cont-section">
+                      <div class="name">Sushdopaminedecor</div>
+                      <p class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Explicabo magnam vero totam non. At illum autem
+                        obcaecati facere maiores? Nesciunt magnam at
+                        praesentium quasi velit quae deserunt id in odit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="relate-products-section">
+        <div class="container">
+          <div class="products-section pt-0">
+            <div class="title-head">
+              <h2>Realted <span>Products</span></h2>
+            </div>
+
+            <div class="products-slider owl-carousel owl-theme dots-top dots-small">
+              <div class="product-default">
+                <figure>
+                  <a href="product.html">
+                    <img src="assets/images/products/product-1.jpg" width="280" height="280" alt="product" />
+                    <img src="assets/images/products/product-1-2.jpg" width="280" height="280" alt="product" />
+                  </a>
+                </figure>
+                <div class="product-details">
+                  <div class="category-list">
+                    <a class="product-category" href="category.html">Category</a>
+                  </div>
+                  <h3 class="product-title">
+                    <a href="product.html">Ultimate 3D Bluetooth Speaker</a>
+                  </h3>
+                  <div class="ratings-container">
+                    <div class="product-ratings">
+                      <span class="ratings" style="width: 80%"></span>
+                      <!-- End .ratings -->
+                      <span class="tooltiptext tooltip-top"></span>
+                    </div>
+                    <!-- End .product-ratings -->
+                  </div>
+                  <!-- End .product-container -->
+                  <div class="price-box">
+                    <del class="old-price">$59.00</del>
+                    <span class="product-price">$49.00</span>
+                  </div>
+                  <!-- End .price-box -->
+                  <div class="product-action">
+                    <a class="btn-icon-wish" href="wishlist.html" title="Wishlist"><i class="icon-heart"></i></a>
+                    <a class="btn-icon btn-add-cart" href="product.html"><i class="fa fa-arrow-right"></i><span>SELECT
+                        OPTIONS</span></a>
+                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
+                        class="fas fa-external-link-alt"></i></a>
+                  </div>
+                </div>
+                <!-- End .product-details -->
+              </div>
+
+              <div class="product-default">
+                <figure>
+                  <a href="product.html">
+                    <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/407/RS-SERIES-10mm.jpg"
+                      width="280" height="280" alt="product" />
+                    <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/407/RS-SERIES-10mm.jpg"
+                      width="280" height="280" alt="product" />
+                  </a>
+                  <!-- <div class="label-group">
+                                        <div class="product-label label-hot">HOT</div>
+                                        <div class="product-label label-sale">-20%</div>
+                                    </div> -->
+                </figure>
+                <div class="product-details">
+                  <div class="category-list">
+                    <a class="product-category" href="category.html">Category</a>
+                  </div>
+                  <h3 class="product-title">
+                    <a href="product.html"> Vishay Beyschlag/Draloric</a>
+                  </h3>
+                  <div class="ratings-container">
+                    <div class="product-ratings">
+                      <span class="ratings" style="width: 80%"></span>
+                      <!-- End .ratings -->
+                      <span class="tooltiptext tooltip-top"></span>
+                    </div>
+                    <!-- End .product-ratings -->
+                  </div>
+                  <!-- End .product-container -->
+                  <div class="price-box">
+                    <del class="old-price">$59.00</del>
+                    <span class="product-price">$49.00</span>
+                  </div>
+                  <!-- End .price-box -->
+                  <div class="product-action">
+                    <a class="btn-icon-wish" href="wishlist.html" title="Wishlist"><i class="icon-heart"></i></a>
+                    <a class="btn-icon btn-add-cart" href="product.html"><i class="fa fa-arrow-right"></i><span>SELECT
+                        OPTIONS</span></a>
+                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
+                        class="fas fa-external-link-alt"></i></a>
+                  </div>
+                </div>
+                <!-- End .product-details -->
+              </div>
+
+              <div class="product-default">
+                <figure>
+                  <a href="product.html">
+                    <img
+                      src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4838/Vishay-Mal203-6,3x11.JPG"
+                      width="280" height="280" alt="product" />
+                    <img
+                      src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4838/Vishay-Mal203-6,3x11.JPG"
+                      width="280" height="280" alt="product" />
+                  </a>
+                </figure>
+                <div class="product-details">
+                  <div class="category-list">
+                    <a class="product-category" href="category.html">Category</a>
+                  </div>
+                  <h3 class="product-title">
+                    <a href="product.html"> Draloric/BC Components</a>
+                  </h3>
+                  <div class="ratings-container">
+                    <div class="product-ratings">
+                      <span class="ratings" style="width: 80%"></span>
+                      <!-- End .ratings -->
+                      <span class="tooltiptext tooltip-top"></span>
+                    </div>
+                    <!-- End .product-ratings -->
+                  </div>
+                  <!-- End .product-container -->
+                  <div class="price-box">
+                    <del class="old-price">$59.00</del>
+                    <span class="product-price">$49.00</span>
+                  </div>
+                  <!-- End .price-box -->
+                  <div class="product-action">
+                    <a class="btn-icon-wish" href="wishlist.html" title="Wishlist"><i class="icon-heart"></i></a>
+                    <a class="btn-icon btn-add-cart" href="product.html"><i class="fa fa-arrow-right"></i><span>SELECT
+                        OPTIONS</span></a>
+                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
+                        class="fas fa-external-link-alt"></i></a>
+                  </div>
+                </div>
+                <!-- End .product-details -->
+              </div>
+
+              <div class="product-default">
+                <figure>
+                  <a href="product.html">
+                    <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/407/RS-SERIES-10mm.jpg"
+                      width="280" height="280" alt="product" />
+                    <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/407/RS-SERIES-10mm.jpg"
+                      width="280" height="280" alt="product" />
+                  </a>
+                </figure>
+                <div class="product-details">
+                  <div class="category-list">
+                    <a class="product-category" href="category.html">Category</a>
+                  </div>
+                  <h3 class="product-title">
+                    <a href="product.html">urs1e221mpd1td – Nichicon</a>
+                  </h3>
+                  <div class="ratings-container">
+                    <div class="product-ratings">
+                      <span class="ratings" style="width: 80%"></span>
+                      <!-- End .ratings -->
+                      <span class="tooltiptext tooltip-top"></span>
+                    </div>
+                    <!-- End .product-ratings -->
+                  </div>
+
+                  <div class="price-box">
+                    <del class="old-price">$59.00</del>
+                    <span class="product-price">$49.00</span>
+                  </div>
+                  <!-- End .price-box -->
+                  <div class="product-action">
+                    <a class="btn-icon-wish" href="wishlist.html" title="Wishlist"><i class="icon-heart"></i></a>
+                    <a class="btn-icon btn-add-cart" href="product.html"><i class="fa fa-arrow-right"></i><span>SELECT
+                        OPTIONS</span></a>
+                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
+                        class="fas fa-external-link-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="widget">
+                <h4 class="widget-title">Contact Info</h4>
+                <ul class="contact-info">
+                  <li>
+                    <span class="contact-info-label">Address:</span> 123
+                    Street Name, City, England
+                  </li>
+                  <li>
+                    <span class="contact-info-label">Phone:</span><a href="tel:">(123) 456-7890</a>
+                  </li>
+                  <li>
+                    <span class="contact-info-label">Email:</span>
+                    <a href="https://portotheme.com/cdn-cgi/l/email-protection#dcb1bdb5b09cb9a4bdb1acb0b9f2bfb3b1"><span
+                        class="__cf_email__"
+                        data-cfemail="dfb2beb6b39fbaa7beb2afb3baf1bcb0b2">[email&#160;protected]</span></a>
+                  </li>
+                  <li>
+                    <span class="contact-info-label">Working Days/Hours:</span>
+                    Mon - Sun / 9:00 AM - 8:00 PM
+                  </li>
+                </ul>
+                <div class="social-icons">
+                  <a href="#" class="social-icon social-facebook icon-facebook" target="_blank" title="Facebook"></a>
+                  <a href="#" class="social-icon social-twitter icon-twitter" target="_blank" title="Twitter"></a>
+                  <a href="#" class="social-icon social-instagram icon-instagram" target="_blank" title="Instagram"></a>
+                </div>
+                <!-- End .social-icons -->
+              </div>
+              <!-- End .widget -->
+            </div>
+            <!-- End .col-lg-3 -->
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="widget">
+                <h4 class="widget-title">GENERAL</h4>
+
+                <ul class="links">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Products</a></li>
+
+                </ul>
+              </div>
+              <!-- End .widget -->
+            </div>
+            <!-- End .col-lg-3 -->
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="widget">
+                <h4 class="widget-title">LEGAL</h4>
+                <ul class="links">
+                  <li><a href="#">Shipping Details</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Refund Policy</a></li>
+
+                </ul>
+
+              </div>
+              <!-- End .widget -->
+            </div>
+            <!-- End .col-lg-3 -->
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="widget widget-newsletter">
+                <h4 class="widget-title">SOCIAL MEDIA</h4>
+
+                <a href="#" class="btn btn-primary">Subscrible on Linkedin</a>
+
+
+              </div>
+              <!-- End .widget -->
+            </div>
+            <!-- End .col-lg-3 -->
+          </div>
+          <!-- End .row -->
         </div>
         <!-- End .container -->
-      </footer>
+      </div>
+      <!-- End .footer-middle -->
+
+      <div class="container">
+        <div class="footer-bottom">
+          <div class="container d-sm-flex align-items-center justify-content-center">
+            <span class="footer-copyright">© MAKETRONICS. 2021. All Rights Reserved</span>
+
+          </div>
+        </div>
+        <!-- End .footer-bottom -->
+      </div>
+      <!-- End .container -->
+    </footer>
+  </div>
+
+
+
+
+
+  <div class="mobile-menu-overlay"></div>
+  <!-- End .mobil-menu-overlay -->
+
+  <div class="mobile-menu-container">
+    <div class="mobile-menu-wrapper">
+      <span class="mobile-menu-close"><i class="fa fa-times"></i></span>
+      <nav class="mobile-nav">
+        <ul class="mobile-menu">
+          <li>
+            <a href="javascript:void(0)">Home</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Products</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Categories</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">About Us</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Quality</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Blog</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Case Study</a>
+          </li>
+
+        </ul>
+
+
+
+      </nav>
+
+
+
+      <div class="social-icons">
+        <a href="#" class="social-icon social-facebook icon-facebook" target="_blank">
+        </a>
+        <a href="#" class="social-icon social-twitter icon-twitter" target="_blank">
+        </a>
+        <a href="#" class="social-icon social-instagram icon-instagram" target="_blank">
+        </a>
+      </div>
     </div>
+    <!-- End .mobile-menu-wrapper -->
+  </div>
+  <!-- End .mobile-menu-container -->
 
-   
+  <a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
 
-    
+  <!-- Plugins JS File -->
+  <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/plugins.min.js"></script>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <div class="sticky-navbar">
-      <div class="sticky-info">
-        <a href="demo4.html"> <i class="icon-home"></i>Home </a>
-      </div>
-      <div class="sticky-info">
-        <a class href="category.html"> <i class="icon-bars"></i>Categories </a>
-      </div>
-      <div class="sticky-info">
-        <a class href="wishlist.html">
-          <i class="icon-wishlist-2"></i>Wishlist
-        </a>
-      </div>
-      <div class="sticky-info">
-        <a
-          href="https://www.portotheme.com/html/porto_ecommerce/my-account.html"
-          class=""
-        >
-          <i class="icon-user-2"></i>Account
-        </a>
-      </div>
-      <div class="sticky-info">
-        <a class href="cart.html">
-          <i class="icon-shopping-cart position-relative">
-            <span class="cart-count badge-circle">3</span> </i
-          >Cart
-        </a>
-      </div>
-    </div>
+  <!-- Main JS File -->
+  <script src="assets/js/main.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <a id="scroll-top" href="#top" title="Top" role="button"
-      ><i class="icon-angle-up"></i
-    ></a>
-
-    <!-- Plugins JS File -->
-    <script
-      data-cfasync="false"
-      src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"
-    ></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/plugins.min.js"></script>
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Main JS File -->
-    <script src="assets/js/main.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <!-- <script>
+  <!-- <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 30,
@@ -1215,69 +1023,70 @@
 
     </script> -->
 
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        freeMode: true,
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false,
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        992: {
+          slidesPerView: 3,
         },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+
+        768: {
+          slidesPerView: 2,
         },
-        breakpoints: {
-          992: {
-            slidesPerView: 3,
-          },
 
-          768: {
-            slidesPerView: 2,
-          },
-
-          576: {
-            slidesPerView: 1,
-          },
-
-          0: {
-            slidesPerView: 1,
-          },
+        576: {
+          slidesPerView: 1,
         },
-      });
 
-      var customSlider = new Swiper(".custom-slider", {
-        slidesPerView: 4,
-        spaceBetween: 20,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+        0: {
+          slidesPerView: 1,
         },
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false,
+      },
+    });
+
+    var customSlider = new Swiper(".custom-slider", {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      direction: "horizontal",
+      breakpoints: {
+        992: {
+          slidesPerView: 4,
         },
-        loop: true,
-        direction: "horizontal",
-        breakpoints: {
-          992: {
-            slidesPerView: 4,
-          },
 
-          768: {
-            slidesPerView: 3,
-          },
+        768: {
+          slidesPerView: 3,
+        },
 
-          576: {
-            slidesPerView: 1,
-          },
+        576: {
+          slidesPerView: 1,
+        },
 
-          0: {
-            slidesPerView: 1,
-          },
-        }, // Infinite loop
-      });
-    </script>
-  </body>
+        0: {
+          slidesPerView: 1,
+        },
+      }, // Infinite loop
+    });
+  </script>
+</body>
+
 </html>
